@@ -1,0 +1,30 @@
+.pagination{
+    padding: 16px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .page-count{
+        display: flex;
+        align-items: center;
+        .previous-arrow{
+            margin-right: 10px;
+        }
+        .next-arrow{
+            margin-left: 10px;
+        }
+        span{
+            border-radius: 2px;
+            font-size: 14px;
+            color: #767777;
+            padding: 3px 10px 5px 10px;
+            &.active{
+                background-color: brown;
+                color: #fff;
+            }
+        }
+    }
+    .pointer{
+        cursor: pointer;
+    }
+}
